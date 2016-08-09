@@ -1,0 +1,33 @@
+header {
+	background: url(fyphere.jpeg) no-repeat center;
+	background-size: cover;
+	height: 10em;
+	padding: 80px;
+	border: 1px solid grey;
+
+}
+body header{
+	margin-top: 0;
+	color: white;
+	font-size: 30px;
+
+}
+nav{
+	margin-bottom: 0;
+}
+section{
+	height: 20em;
+	border: 1px solid black;
+	width: 100%;
+
+}
+
+section:nth-child(odd) {
+	background-color: blue;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
