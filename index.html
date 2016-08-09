@@ -20,7 +20,8 @@
     		$(this).next().slideToggle(300);
     	});
     });
-</script>
+	</script>
+	
 </head>
 <body>
 	<nav class="nav navbar-default">
@@ -115,5 +116,18 @@
 			</tr>
 		</table>
 	</section>
+
+	<footer>
+	<p>&#169;2016 Dorjee's Mirror</p>
+	</footer>
+
+	<script type="text/javascript">
+		var mirror= document.querySelector('h1')
+    	function blink(){
+    	mirror.style.opacity = mirror.style.opacity == 1 ? 0 : 1
+    	setTimeout(blink, 1000)
+    	}
+    	blink()
+	</script>
 </body>
 </html>
