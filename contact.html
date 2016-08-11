@@ -7,7 +7,6 @@
 	
 	<link rel="stylesheet" rel="stylesheet" href="main.css">
 
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Latest compiled JavaScript -->
@@ -16,13 +15,9 @@
 </head>
 <body>
 </body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html">Dorjee's Mirror</a>
-			</div>
-		<ul class="nav navbar-nav navbar-right">
-			<li class="active"><a href="index.html">Home</a></li>			
+	<nav class="navbar">
+		<ul>
+			<li class="active"><a href="home.html">Dorjee's Mirror</a></li>			
 			<li><a href="portfolio.html">Portfolio</a></li>
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
@@ -30,7 +25,8 @@
 	</nav>
 
 	<div itemscope itemtype="http://schema.org/Person">
-	    <h1>Contact Details</h1>
+		<div class="address">
+	    <h1 style="font-color: red;">Contact Details</h1>
 	    <dl>
 	      <dt>Name</dt>
 	      <dd itemprop="name">Dorjee Wangchuk Gurung</dd>	
@@ -58,14 +54,17 @@
 	         <span itemprop="name">Malaysia</span>
 	    </span>
 		</dd>
-	    <h1>Online Social Media</h1>
-	    <ul>
-	       <li><a href="https://www.facebook.com/dorjwang"
-	            itemprop="url">Facebook profile</a></li>
-	       <li><a href="https://www.linkedin.com/in/dorjee-wangchuk-b064b586?trk=nav_responsive_tab_profile_pic"
+		</div>
+		<aside>
+	    <h1>Online Social Media</h1> 	
+	    <ul class="onlineMedia">
+	       <li><a href="https://www.facebook.com/dorjwang" target="_blank"
+	            itemprop="url">Facebook Profile</a></li>
+	       <li><a href="https://www.linkedin.com/in/dorjee-wangchuk-b064b586?trk=nav_responsive_tab_profile_pic" target="_blank"
 	            itemprop="url">Linkedin Profile</a></li>
-	       <li><a href="https://dorjeewangchuk.wordpress.com/" 
+	       <li><a href="https://dorjeewangchuk.wordpress.com/" target="_blank" 
 	       		itemprop="url">Dorjee's Blog</a></li>
 	    </ul>
+	    </aside>
 	</div>
 </html>
